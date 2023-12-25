@@ -1,3 +1,13 @@
+linux-atm (1:2.5.1-5) unstable; urgency=medium
+
+  * QA upload.
+  * d/atm-tools.install: install atmarp, atmarpd into /usr/sbin.
+  * d/atm-tools.atm, atm-tools.atm.service: update path to atmarpd.
+  * d/control: drop Depends: on obsolete package lsb-base.
+  * d/control: add missing Pre-Depends: ${misc:Pre-Depends} for dh_installsystemd.
+
+ -- Chris Hofstaedtler <zeha@debian.org>  Wed, 20 Dec 2023 22:41:15 +0100
+
 linux-atm (1:2.5.1-4) unstable; urgency=medium
 
   * QA upload.

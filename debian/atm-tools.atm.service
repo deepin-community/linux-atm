@@ -14,7 +14,7 @@ ConditionCapability=CAP_NET_ADMIN
 ## Instead use 'systemctl edit atm.service' and override the
 ## Environment or ExecStart lines directly.
 #EnvironmentFile=-/etc/default/atm
-ExecStart=/sbin/atmarpd $OPTIONS
+ExecStart=/usr/sbin/atmarpd $OPTIONS
 Restart=on-abort
 
 [Install]

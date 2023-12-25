@@ -16,7 +16,8 @@ Standards-Version: 4.4.0
 Package: atm-tools
 Architecture: linux-any
 Multi-Arch: foreign
-Depends: lsb-base, ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: Base programs for ATM in Linux, the net-tools for ATM
  This package provides all the basic programs needed for setting up,
  monitoring and tuning ATM networks. Such as:

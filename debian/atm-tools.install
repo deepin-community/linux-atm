@@ -7,8 +7,8 @@ usr/sbin/atmloop
 usr/sbin/atmtcp
 usr/sbin/enitune
 usr/sbin/zntune
-usr/sbin/atmarp sbin
-usr/sbin/atmarpd sbin
+usr/sbin/atmarp
+usr/sbin/atmarpd
 usr/sbin/ilmid
 usr/sbin/zeppelin
 usr/sbin/les

@@ -10,7 +10,7 @@
 # Short-Description: Start/stop the atm daemon(s).
 ### END INIT INFO
 
-DAEMON='/sbin/atmarpd'
+DAEMON='/usr/sbin/atmarpd'
 PIDFILE='/run/atmarpd.pid'
 DEFAULTS='/etc/default/atm'
 
